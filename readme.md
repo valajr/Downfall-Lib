@@ -13,7 +13,11 @@ root
  │       ┝━ main.js
  │       ┝━ style.css
  │       ┕━ ...
- ┝━ index.html
- ┝━ test.js
- ┕━ test.css
+ ┝━ test
+ │   ┕━ img
+ │    │  ┕━ ...
+ │    ┝━ main.js
+ │    ┝━ style.css
+ │    ┕━ ...
+ ┕━ index.html
 ```

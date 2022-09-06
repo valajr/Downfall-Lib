@@ -19,9 +19,9 @@ function testLibCards() {
 }
 
 function testLibPaths() {
-    Path.createPath(16,3, 'no');
+    Path.createPath(16, 3, 'no');
     console.log(Path.rooms);
-    Path.createPath(9,3);
+    Path.createPath(9, 3);
     console.log(Path.rooms);
 }
 

@@ -21,7 +21,7 @@ function testLibCards() {
 function testLibPaths() {
     Path.createPath(16, 3, false);
     console.log(Path.rooms);
-    Path.createPath(9, 3);
+    Path.createPath(10, 3);
     console.log(Path.rooms);
     Path.createPath(3, 1);
     console.log(Path.rooms);

@@ -36,7 +36,10 @@ Every library must be imported, you can download the libraries you need or impor
 
 ## Battle Library
 
+A library to use a turn based battle system.
+
 File: **main.js**
+
 ### Char Class
 
 | Properties |    Return    |
@@ -81,6 +84,10 @@ File: **main.js**
 
 ## Cards Library
 
+A library to use a deck of cards with name, type, description, action and images (front and back).
+
+File: **main.js**
+
 ### Card Class
 
 | Properties  |    Return    |
@@ -111,11 +118,11 @@ File: **main.js**
 |    getCardById()    | card_id **String**  | **Card** |
 |  getCardsByType()   |  type **String**   | **Array** |
 
-
-
-## Inventory Library
-
 ## Paths Library
+
+A library to implement one tower with rooms and levels.
+
+File: **main.js**
 
 ### Room Class
 
@@ -139,4 +146,3 @@ File: **main.js**
 | getRoomById() | room_id **String** | - |
 | getRoomsByLvl() | room_lvl **Number** | - |
 | createPath() | qnt_rooms **Integer**, max_rooms **Integer**,  qnt_fixed **Boolean** | - |
-

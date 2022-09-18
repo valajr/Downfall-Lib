@@ -38,7 +38,7 @@ Every library must be imported, you can download the libraries you need or impor
 
 A library to use a turn based battle system.
 
-File: **main.js**
+File: **battle/main.js**
 
 ### Char Class
 
@@ -86,7 +86,7 @@ File: **main.js**
 
 A library to use a deck of cards with name, type, description, action and images (front and back).
 
-File: **main.js**
+File: **cards/main.js**
 
 ### Card Class
 
@@ -122,7 +122,7 @@ File: **main.js**
 
 A library to implement one tower with rooms and levels.
 
-File: **main.js**
+File: **paths/main.js**
 
 ### Room Class
 

@@ -28,7 +28,7 @@ function testLibBattle() {
     Battle.autoAttack(enemy_01);
     Battle.updateTurn();
 
-    for(let i=0; i<4; i++)
+    for(let i=0; i<6; i++)
         Battle.autoAttack(player_01);
 }
 
